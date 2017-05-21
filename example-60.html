@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Spacing</title>
+		<style type="text/css">
+			body {
+				background-color: SlateGray;
+				color: White;
+				font-family: "Courier New", Courier, monospace;
+			}
+
+			#title {
+				font-size: 40px;
+			}
+
+			/* valid values for text-decoration: "line-through" */
+			#credits {
+				text-decoration: underline;
+			}
+
+			/* valid values for text-transform: "uppercase", "lowercase" */
+			.topic {
+				text-transform: capitalize;
+			}
+
+			#new {
+				font-weight: bold;
+			}
+			
+			#old {
+				font-style: italic;
+			}
+
+			#indent {
+				text-indent: 40px;
+			}
+			
+			#height {
+				line-height: 100px;
+			}
+
+			#lspace {
+				letter-spacing: 20px;
+			}
+
+			#wspace {
+				word-spacing: 20px;
+			}
+
+
+			#lalign {
+				text-align: left;
+			}
+
+			#ralign {
+				text-align: right;
+			}
+
+
+			#calign {
+				text-align: center;
+
+			}
+
+			a:link {
+				color: White;
+				text-decoration: none;
+			}
+			
+			a:visited {
+				color: Black;
+			}
+			
+			a:hover {
+				color: Red;
+				text-decoration: underline;
+			}
+			
+			a:active {
+				color: Blue;
+			}
+
+			textarea {
+				color: Gray;
+			}
+		
+			textarea:focus {
+				color: Black;
+			}
+			
+
+			.submit:hover {
+				color: White;
+				background-color: Black;
+			}
+
+			.submit:active {
+				color: Black;
+				background-color: Yellow; 
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 id="title">CSS Text Tutorial</h1>
+		<h3 id="credits">by noobaid.com</h3>
+		
+		<h1 class="topic">new properties introduced in this video</h1>	
+		
+		<ul id="new"> 
+			<li>font-size</li>
+			<li>font-style</li>
+			<li>font-weight</li>
+			<li>text-decoration</li>
+			<li>text-transformation</li>
+		</ul>
+
+		<h1 class="topic">properties covered in previous videos</h1>	
+			
+		<ul id="old">
+			<li>background-color</li>
+			<li>color</li>
+			<li>font-family</li>
+		</ul>
+
+		<h1>Examples of using CSS to set text spacing</h1>
+
+		<p id="indent">This is an indented paragraph</p>
+		<p id="height">This paragraph has increased the gap between lines</p>
+		<p id="lspace">This paragraph has increased space between letters</p>
+		<p id="wspace">This paragraph has increased space between words</p>
+		<p id="lalign">This paragraph is aligned to the left</p>
+		<p id="ralign">This paragraph is aligned to the right</p>
+		<p id="calign">This paragraph is aligned to the center</p>
+
+		<h1>Related Links</h1>
+
+		<ul>
+			<li><a href="http://noobaid.com/">noobaid</a></li>
+			<li><a href="https://github.com/html-css-noobaid">GitHub</a></li>
+		</ul>
+
+		<h1>Feedback</h1>
+
+		<textarea rows="10" cols="40">Enter comments here...</textarea>
+		<input type="submit" class="submit" value="submit"/>
+		
+	</body>
+</html>
